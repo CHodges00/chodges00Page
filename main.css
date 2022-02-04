@@ -3,3 +3,8 @@ body {
     padding: 0;
     font-family: 'Hi Melody', cursive;
 }
+
+.card1 {
+    width: 75%;
+    margin: auto;
+}
