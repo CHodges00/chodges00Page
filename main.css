@@ -2,19 +2,33 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Hi Melody', cursive;
+    background-color: #414288;
 }
 
+
+/*CARD 1*/
 .card1 {
     width: 75%;
     float: left;
 }
+.body1{
+    background-color: #9A998C;
+}
 
+/*CARD2*/
 .card2 {
     width: 75%;
     float: right;
 }
+.body2{
+    background-color: #9A998C;
+}
 
+/*CARD3*/
 .card3 {
     width: 75%;
     float: left;
+}
+.body3{
+    background-color: #9A998C;
 }
