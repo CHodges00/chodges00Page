@@ -8,6 +8,8 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
     background-color: #9A998C;
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -67,14 +69,10 @@ img {
 .container {
     max-width:600px;
     max-height:350px;
-
-
-
     display:flex;
     justify-content:center;
     align-items:center;
     gap:20px;
-
 }
 .container:hover img {
     opacity:0.3;
