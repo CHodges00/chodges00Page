@@ -519,7 +519,7 @@ section {
 
 .lightcase-icon-close:before {
     content: '\e870';
-    font-family: "Linearicons-Free"; }
+    font-family: "Linearicons-Free", serif; }
 
 .grid-title {
     text-align: center; }
@@ -743,3 +743,9 @@ section {
         font-size: 16px; } }
 
 /*=====  End of RESPONSIVE  ======*/
+
+
+.client-item{
+    display: flex;
+    justify-content: space-between;
+}
