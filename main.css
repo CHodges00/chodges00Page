@@ -339,17 +339,10 @@ section {
 .triangle {
     position: absolute; }
 
-.triangle-1 {
-    right: 0;
-    animation: fadeInFromTop .5s linear forwards, floating ease-in-out 6s infinite; }
-.triangle-1 img {
-    height: 50px;
-    width: 50px;
-    transform: rotate(30deg); }
 
 .triangle-2 {
     top: 30%;
-    left: 20%;
+    left: 10%;
     animation: fadeInFromTop .5s linear forwards, floating ease-in-out 8s infinite; }
 .triangle-2 img {
     width: 75px;
@@ -361,8 +354,8 @@ section {
     left: 15%;
     animation: fadeInFromTop .5s linear forwards, floating ease-in-out 10s infinite; }
 .triangle-3 img {
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     transform: rotate(40deg); }
 
 .triangle-4 {
