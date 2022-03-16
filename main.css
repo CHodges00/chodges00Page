@@ -363,8 +363,8 @@ section {
     right: 15%;
     animation: fadeInFromTop .5s linear forwards, floating ease-in-out 5s infinite; }
 .triangle-4 img {
-    width: 45px;
-    height: 45px;
+    width: 75px;
+    height: 75px;
     transform: rotate(-40deg); }
 
 /*=====  End of FORM RECTANGLE ETC  ======*/
@@ -741,4 +741,8 @@ section {
 .client-item{
     display: flex;
     justify-content: space-between;
+}
+
+video{
+    width: 100%;
 }
