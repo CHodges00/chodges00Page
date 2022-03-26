@@ -10,7 +10,6 @@ html, body {
 
 
 body {
-    /*font-family: 'Lato', sans-serif;*/
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
@@ -217,12 +216,6 @@ section {
 }
 
 
-.btn-primary {
-    display: inline-block;
-    background-color: #ff00cc;
-    border-color: #ff00cc;
-    color: #fff;
-}
 
 .btn-primary:hover {
     background-color: #333399;
@@ -249,10 +242,6 @@ section {
 
 .btn-icon {
     color: #000;
-}
-
-.btn-link {
-    color: #ff00cc;
 }
 
 
@@ -511,10 +500,6 @@ section {
 }
 
 
-.progress-bar {
-    background-color: #ff00cc;
-}
-
 
 /*=====  End of FEATURES  ======*/
 /*=============================
@@ -539,10 +524,6 @@ section {
     padding-bottom: 50px;
 }
 
-
-.testi-icon {
-    color: #ff00cc;
-}
 
 
 .testi-content {
@@ -574,7 +555,6 @@ section {
     height: 100%;
     outline: none;
     border-radius: 50%;
-    background-color: rgba(255, 0, 204, 0.3);
     text-indent: -999em;
     cursor: pointer;
     position: absolute;
@@ -583,11 +563,6 @@ section {
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-
-.owl-dot.active > span {
-    background-color: transparent;
-    box-shadow: 0 0 0 2px #ff00cc;
-}
 
 
 .owl-dots {
@@ -927,10 +902,6 @@ section {
 /*====================================
 =            FORM CONTROL            =
 ====================================*/
-.form-control:focus {
-    border-color: #ff00cc;
-    box-shadow: 0 0 0 0.2rem rgba(253, 101, 90, 0.25);
-}
 
 
 .form-control::-webkit-input-placeholder {
@@ -982,12 +953,6 @@ section {
         top: 0;
         height: auto;
         width: 100%;
-
-
-        /*background: #ff00cc;*/
-        background: dodgerblue;
-
-
         z-index: 11;
     }
 
@@ -996,11 +961,6 @@ section {
         padding-bottom: 15px !important;
     }
 
-    .navbar-transparent .navbar-collapse {
-        background: #ff00cc;
-
-        padding: 10px;
-    }
 }
 
 @media (max-width: 767px) {
