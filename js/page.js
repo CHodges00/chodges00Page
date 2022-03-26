@@ -1,5 +1,5 @@
 
-let aboutUsContent = `<img src="../assets/Resume1">`
+let aboutUsContent = `<img src="../assets/Resume1.pdf"><br><img src="../assets/Resume2.pdf">`
 
 function showAbout() {
     aboutPage.innerHTML = aboutUsContent;
