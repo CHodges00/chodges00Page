@@ -745,3 +745,7 @@ section {
 video{
     width: 100%;
 }
+
+#returnHome {
+    text-align: center;
+}
