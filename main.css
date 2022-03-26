@@ -249,7 +249,7 @@ section {
 .rectangle-1 {
     opacity: 0;
     animation: grow1 ease 1s forwards;
-    box-shadow: 0px 20px 30px 0px rgba(9, 21, 54, 0.25) !important; }
+    box-shadow: 0 20px 30px 0 rgba(9, 21, 54, 0.25) !important; }
 
 .rectangle-2 {
     opacity: 0;
@@ -706,23 +706,23 @@ section {
         top: 0;
         height: auto;
         width: 100%;
-        background: #ff00cc;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #333399, #ff00cc);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #333399, #ff00cc);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+        /*background: #ff00cc;*/
+        background: dodgerblue;
+
+
+
         z-index: 11; }
     #header-navbar {
         padding-top: 15px !important;
         padding-bottom: 15px !important; }
     .navbar-transparent .navbar-collapse {
         background: #ff00cc;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #333399, #ff00cc);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #333399, #ff00cc);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         padding: 10px; } }
 
 @media (max-width: 767px) {
@@ -752,13 +752,13 @@ video{
     font-size: 20px;
 }
 
-#contact-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 50px;
-}
+/*#contact-info{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*    padding-bottom: 50px;*/
+/*}*/
 
 #contact-info h5{
     margin-top: 20px;
@@ -767,18 +767,19 @@ video{
 
 #contact-box{
     color: white;
-    display: flex;
-    justify-content: space-evenly;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    text-align: center;
     margin-top: 20px;
     width: 100%;
 }
-#contact-box img{
-    border: 0;
-    border-radius: 200px;
-    box-shadow: 0 0 20px 5px gray;
-    height: 400px;
-    width: 400px;
-}
+/*#contact-box img{*/
+/*    border: 0;*/
+/*    border-radius: 200px;*/
+/*    box-shadow: 0 0 20px 5px gray;*/
+/*    height: 400px;*/
+/*    width: 400px;*/
+/*}*/
 
 #main-page{
     margin: 0;
@@ -787,4 +788,16 @@ video{
 .bg{
     /*background-color: #9E9E9E;*/
     background-color: black;
+}
+
+#about-content h1{
+    padding-top: 20px;
+}
+
+#about-content{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 175px;
+    padding-right: 175px;
 }
