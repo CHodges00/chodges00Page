@@ -1,11 +1,20 @@
 
+
+
+
+
+
+
+
+
+
+// RESUME LINK FUNCTIONALITY
 let aboutUsContent = `<img src="../assets/Resume8.pdf"><br><img src="../assets/Resume2.pdf">`
 
 function showAbout() {
     aboutPage.innerHTML = aboutUsContent;
     homeBTN.innerHTML = `<a href="#" onclick="location.reload()">Return Home</a>`
 }
-
 
 
 let aboutBTN = document.querySelector('#about');
@@ -20,7 +29,7 @@ let homeBTN = document.querySelector('#returnHome');
 
 
 
-
+// CONTACT LINK FUNCTIONALITY
 let supportersContent =
     `<div id="contact-box">
 <div id="photo"><img src="../assets/Headshot.png"></div>
