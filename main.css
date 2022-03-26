@@ -775,7 +775,7 @@ video{
 #contact-box img{
     border: 0;
     border-radius: 200px;
-    box-shadow: 0 0 10px 10px gray;
+    box-shadow: 0 0 20px 5px gray;
     height: 400px;
     width: 400px;
 }
@@ -785,5 +785,6 @@ video{
 }
 
 .bg{
-    background-color: #9E9E9E;
+    /*background-color: #9E9E9E;*/
+    background-color: black;
 }

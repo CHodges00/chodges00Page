@@ -9,7 +9,7 @@
 // ADD RESUME IMG'S !!!!!!!!!!!!!!!!!!
 
 // RESUME LINK FUNCTIONALITY
-let aboutUsContent = `<img src="../assets/"><br><img src="../assets/">`
+let aboutUsContent = `<h1>Hello</h1>`
 
 function showAbout() {
     aboutPage.innerHTML = aboutUsContent;
