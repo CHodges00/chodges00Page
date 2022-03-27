@@ -61,3 +61,7 @@ let supportersBtn = document.querySelector('#supporters');
 let supportersPage = document.querySelector('#main-page');
 
 supportersBtn.addEventListener('click', showSupporters);
+
+
+
+
