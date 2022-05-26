@@ -948,6 +948,10 @@ section {
 =            RESPONSIVE            =
 ==================================*/
 @media (max-width: 992px) {
+    .triangle{
+        display: none;
+    }
+
     .not-on-top #header-navbar {
         position: fixed;
         top: 0;
